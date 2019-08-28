@@ -9,6 +9,8 @@
   },
   "homepage": "https://nourbenhassen.github.io/portfolio",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "clean": "rimraf dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --colors",
@@ -54,7 +56,6 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "dotenv-webpack": "^1.5.4",
-    "gh-pages": "^2.1.1",
     "jquery": "^3.2.1",
     "normalize.css": "^7.0.0",
     "scrollreveal": "^3.3.6"
