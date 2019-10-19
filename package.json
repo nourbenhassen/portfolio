@@ -1,13 +1,13 @@
 {
   "name": "mashup-template",
-  "author": "Antoine Renault <antoine.renault.mmi@gmail.com>",
-  "version": "0.1.0",
-  "description": "Mashup Template",
+  "author": "",
+  "version": "",
+  "description": "",
   "license": "MIT",
   "engines": {
     "node": ">=6"
   },
-  "homepage": "https://nourbenhassen.github.io/portfolio",
+  "homepage": "https://nourbenhassen.github.io/portfolio/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -56,6 +56,7 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "dotenv-webpack": "^1.5.4",
+    "gh-pages": "^2.1.1",
     "jquery": "^3.2.1",
     "normalize.css": "^7.0.0",
     "scrollreveal": "^3.3.6"
